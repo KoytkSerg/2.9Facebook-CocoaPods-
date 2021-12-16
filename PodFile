@@ -1,0 +1,8 @@
+platform :ios, '14.4'
+target '2.9Facebook(CocoaPods)' do
+  use_modular_headers!
+  pod 'FacebookCore'
+  pod 'FacebookLogin'
+  pod 'FacebookShare'
+end
+
